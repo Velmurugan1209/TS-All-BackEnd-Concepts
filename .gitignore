@@ -1,0 +1,32 @@
+# Ignore node_modules (dependencies)
+node_modules/
+
+# Ignore TypeScript build output
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore compiled JS files if not using `dist/`
+*.js/
+*.js.map
+*.json
+*.html
+*.pdf
+*.test.ts
+
+public/
+routes/
+service/
+upload/
+validator/
+
+
